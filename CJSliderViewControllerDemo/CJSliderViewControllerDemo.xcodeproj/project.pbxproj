@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7856C2931BEF95EB00593984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2921BEF95EB00593984 /* main.m */; };
+		7856C2961BEF95EB00593984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2951BEF95EB00593984 /* AppDelegate.m */; };
+		7856C2991BEF95EB00593984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2981BEF95EB00593984 /* ViewController.m */; };
+		7856C29C1BEF95EB00593984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7856C29A1BEF95EB00593984 /* Main.storyboard */; };
+		7856C29E1BEF95EB00593984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7856C29D1BEF95EB00593984 /* Assets.xcassets */; };
+		7856C2A11BEF95EB00593984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7856C29F1BEF95EB00593984 /* LaunchScreen.storyboard */; };
+		7856C2C41BEF976F00593984 /* CJSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AA1BEF976F00593984 /* CJSliderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7856C2C51BEF976F00593984 /* CJSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2AB1BEF976F00593984 /* CJSliderViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7856C2C61BEF976F00593984 /* RadioControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AE1BEF976F00593984 /* RadioControllers.m */; settings = {ASSET_TAGS = (); }; };
+		7856C2C71BEF976F00593984 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B01BEF976F00593984 /* RadioButton.m */; settings = {ASSET_TAGS = (); }; };
+		7856C2C81BEF976F00593984 /* RadioButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B21BEF976F00593984 /* RadioButtons.m */; settings = {ASSET_TAGS = (); }; };
+		7856C2C91BEF976F00593984 /* RadioButton_Slider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */; settings = {ASSET_TAGS = (); }; };
+		7856C2DE1BEF977F00593984 /* MySliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2DB1BEF977F00593984 /* MySliderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7856C2DF1BEF977F00593984 /* MySliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2DC1BEF977F00593984 /* MySliderViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7856C2EC1BEFAC6E00593984 /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E61BEFAC6E00593984 /* arrowUp.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2ED1BEFAC6E00593984 /* arrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2EE1BEFAC6E00593984 /* btnTab_BG_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2EF1BEFAC6E00593984 /* btnTab_BG_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2F01BEFAC6E00593984 /* btnTab_BG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2F11BEFAC6E00593984 /* btnTab_BG_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2FA1BEFAC8100593984 /* arrowLeft_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F21BEFAC8100593984 /* arrowLeft_selected.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2FB1BEFAC8100593984 /* arrowLeft_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F31BEFAC8100593984 /* arrowLeft_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2FC1BEFAC8100593984 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F41BEFAC8100593984 /* arrowLeft.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2FD1BEFAC8100593984 /* arrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F51BEFAC8100593984 /* arrowLeft@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2FE1BEFAC8100593984 /* arrowRight_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F61BEFAC8100593984 /* arrowRight_selected.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2FF1BEFAC8100593984 /* arrowRight_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7856C3001BEFAC8100593984 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F81BEFAC8100593984 /* arrowRight.png */; settings = {ASSET_TAGS = (); }; };
+		7856C3011BEFAC8100593984 /* arrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F91BEFAC8100593984 /* arrowRight@2x.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7856C28E1BEF95EB00593984 /* CJSliderViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJSliderViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7856C2921BEF95EB00593984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7856C2941BEF95EB00593984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7856C2951BEF95EB00593984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7856C2971BEF95EB00593984 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7856C2981BEF95EB00593984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7856C29B1BEF95EB00593984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7856C29D1BEF95EB00593984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7856C2A01BEF95EB00593984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7856C2A21BEF95EB00593984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7856C2A91BEF976F00593984 /* CJSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSliderViewController.h; sourceTree = "<group>"; };
+		7856C2AA1BEF976F00593984 /* CJSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSliderViewController.m; sourceTree = "<group>"; };
+		7856C2AB1BEF976F00593984 /* CJSliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJSliderViewController.xib; sourceTree = "<group>"; };
+		7856C2AD1BEF976F00593984 /* RadioControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioControllers.h; sourceTree = "<group>"; };
+		7856C2AE1BEF976F00593984 /* RadioControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioControllers.m; sourceTree = "<group>"; };
+		7856C2AF1BEF976F00593984 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		7856C2B01BEF976F00593984 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		7856C2B11BEF976F00593984 /* RadioButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButtons.h; sourceTree = "<group>"; };
+		7856C2B21BEF976F00593984 /* RadioButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButtons.m; sourceTree = "<group>"; };
+		7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioButton_Slider.xib; sourceTree = "<group>"; };
+		7856C2DA1BEF977F00593984 /* MySliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySliderViewController.h; sourceTree = "<group>"; };
+		7856C2DB1BEF977F00593984 /* MySliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySliderViewController.m; sourceTree = "<group>"; };
+		7856C2DC1BEF977F00593984 /* MySliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySliderViewController.xib; sourceTree = "<group>"; };
+		7856C2E61BEFAC6E00593984 /* arrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowUp.png; sourceTree = "<group>"; };
+		7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowUp@2x.png"; sourceTree = "<group>"; };
+		7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnTab_BG_normal.png; sourceTree = "<group>"; };
+		7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnTab_BG_normal@2x.png"; sourceTree = "<group>"; };
+		7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnTab_BG_selected.png; sourceTree = "<group>"; };
+		7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnTab_BG_selected@2x.png"; sourceTree = "<group>"; };
+		7856C2F21BEFAC8100593984 /* arrowLeft_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft_selected.png; sourceTree = "<group>"; };
+		7856C2F31BEFAC8100593984 /* arrowLeft_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowLeft_selected@2x.png"; sourceTree = "<group>"; };
+		7856C2F41BEFAC8100593984 /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft.png; sourceTree = "<group>"; };
+		7856C2F51BEFAC8100593984 /* arrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowLeft@2x.png"; sourceTree = "<group>"; };
+		7856C2F61BEFAC8100593984 /* arrowRight_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight_selected.png; sourceTree = "<group>"; };
+		7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight_selected@2x.png"; sourceTree = "<group>"; };
+		7856C2F81BEFAC8100593984 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
+		7856C2F91BEFAC8100593984 /* arrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7856C28B1BEF95EB00593984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7856C2851BEF95EB00593984 = {
+			isa = PBXGroup;
+			children = (
+				7856C2901BEF95EB00593984 /* CJSliderViewControllerDemo */,
+				7856C28F1BEF95EB00593984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7856C28F1BEF95EB00593984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7856C28E1BEF95EB00593984 /* CJSliderViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7856C2901BEF95EB00593984 /* CJSliderViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7856C2941BEF95EB00593984 /* AppDelegate.h */,
+				7856C2951BEF95EB00593984 /* AppDelegate.m */,
+				7856C2971BEF95EB00593984 /* ViewController.h */,
+				7856C2981BEF95EB00593984 /* ViewController.m */,
+				7856C29A1BEF95EB00593984 /* Main.storyboard */,
+				7856C2D91BEF977F00593984 /* Controller */,
+				7856C2DD1BEF977F00593984 /* res_image */,
+				7856C2A81BEF976F00593984 /* CJSliderViewController */,
+				7856C29D1BEF95EB00593984 /* Assets.xcassets */,
+				7856C29F1BEF95EB00593984 /* LaunchScreen.storyboard */,
+				7856C2A21BEF95EB00593984 /* Info.plist */,
+				7856C2911BEF95EB00593984 /* Supporting Files */,
+			);
+			path = CJSliderViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		7856C2911BEF95EB00593984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7856C2921BEF95EB00593984 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7856C2A81BEF976F00593984 /* CJSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7856C2A91BEF976F00593984 /* CJSliderViewController.h */,
+				7856C2AA1BEF976F00593984 /* CJSliderViewController.m */,
+				7856C2AB1BEF976F00593984 /* CJSliderViewController.xib */,
+				7856C2AC1BEF976F00593984 /* RadioButtonAndCon */,
+			);
+			name = CJSliderViewController;
+			path = ../../CJSliderViewController;
+			sourceTree = "<group>";
+		};
+		7856C2AC1BEF976F00593984 /* RadioButtonAndCon */ = {
+			isa = PBXGroup;
+			children = (
+				7856C2AD1BEF976F00593984 /* RadioControllers.h */,
+				7856C2AE1BEF976F00593984 /* RadioControllers.m */,
+				7856C2AF1BEF976F00593984 /* RadioButton.h */,
+				7856C2B01BEF976F00593984 /* RadioButton.m */,
+				7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */,
+				7856C2B11BEF976F00593984 /* RadioButtons.h */,
+				7856C2B21BEF976F00593984 /* RadioButtons.m */,
+				7856C2E51BEFAC6E00593984 /* images_RadioButton */,
+			);
+			path = RadioButtonAndCon;
+			sourceTree = "<group>";
+		};
+		7856C2D91BEF977F00593984 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7856C2DA1BEF977F00593984 /* MySliderViewController.h */,
+				7856C2DB1BEF977F00593984 /* MySliderViewController.m */,
+				7856C2DC1BEF977F00593984 /* MySliderViewController.xib */,
+				7856C2E01BEF98B400593984 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7856C2DD1BEF977F00593984 /* res_image */ = {
+			isa = PBXGroup;
+			children = (
+				7856C2F21BEFAC8100593984 /* arrowLeft_selected.png */,
+				7856C2F31BEFAC8100593984 /* arrowLeft_selected@2x.png */,
+				7856C2F41BEFAC8100593984 /* arrowLeft.png */,
+				7856C2F51BEFAC8100593984 /* arrowLeft@2x.png */,
+				7856C2F61BEFAC8100593984 /* arrowRight_selected.png */,
+				7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */,
+				7856C2F81BEFAC8100593984 /* arrowRight.png */,
+				7856C2F91BEFAC8100593984 /* arrowRight@2x.png */,
+			);
+			path = res_image;
+			sourceTree = "<group>";
+		};
+		7856C2E01BEF98B400593984 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7856C2E51BEFAC6E00593984 /* images_RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				7856C2E61BEFAC6E00593984 /* arrowUp.png */,
+				7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */,
+				7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */,
+				7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */,
+				7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */,
+				7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */,
+			);
+			path = images_RadioButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7856C28D1BEF95EB00593984 /* CJSliderViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7856C2A51BEF95EB00593984 /* Build configuration list for PBXNativeTarget "CJSliderViewControllerDemo" */;
+			buildPhases = (
+				7856C28A1BEF95EB00593984 /* Sources */,
+				7856C28B1BEF95EB00593984 /* Frameworks */,
+				7856C28C1BEF95EB00593984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJSliderViewControllerDemo;
+			productName = CJSliderViewControllerDemo;
+			productReference = 7856C28E1BEF95EB00593984 /* CJSliderViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7856C2861BEF95EB00593984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "李超前";
+				TargetAttributes = {
+					7856C28D1BEF95EB00593984 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 7856C2891BEF95EB00593984 /* Build configuration list for PBXProject "CJSliderViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7856C2851BEF95EB00593984;
+			productRefGroup = 7856C28F1BEF95EB00593984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7856C28D1BEF95EB00593984 /* CJSliderViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7856C28C1BEF95EB00593984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7856C2FB1BEFAC8100593984 /* arrowLeft_selected@2x.png in Resources */,
+				7856C2FC1BEFAC8100593984 /* arrowLeft.png in Resources */,
+				7856C2FF1BEFAC8100593984 /* arrowRight_selected@2x.png in Resources */,
+				7856C2A11BEF95EB00593984 /* LaunchScreen.storyboard in Resources */,
+				7856C2FD1BEFAC8100593984 /* arrowLeft@2x.png in Resources */,
+				7856C2FA1BEFAC8100593984 /* arrowLeft_selected.png in Resources */,
+				7856C2F11BEFAC6E00593984 /* btnTab_BG_selected@2x.png in Resources */,
+				7856C2FE1BEFAC8100593984 /* arrowRight_selected.png in Resources */,
+				7856C29E1BEF95EB00593984 /* Assets.xcassets in Resources */,
+				7856C2C51BEF976F00593984 /* CJSliderViewController.xib in Resources */,
+				7856C2ED1BEFAC6E00593984 /* arrowUp@2x.png in Resources */,
+				7856C29C1BEF95EB00593984 /* Main.storyboard in Resources */,
+				7856C2EE1BEFAC6E00593984 /* btnTab_BG_normal.png in Resources */,
+				7856C2F01BEFAC6E00593984 /* btnTab_BG_selected.png in Resources */,
+				7856C2C91BEF976F00593984 /* RadioButton_Slider.xib in Resources */,
+				7856C2EC1BEFAC6E00593984 /* arrowUp.png in Resources */,
+				7856C2DF1BEF977F00593984 /* MySliderViewController.xib in Resources */,
+				7856C2EF1BEFAC6E00593984 /* btnTab_BG_normal@2x.png in Resources */,
+				7856C3001BEFAC8100593984 /* arrowRight.png in Resources */,
+				7856C3011BEFAC8100593984 /* arrowRight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7856C28A1BEF95EB00593984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7856C2991BEF95EB00593984 /* ViewController.m in Sources */,
+				7856C2961BEF95EB00593984 /* AppDelegate.m in Sources */,
+				7856C2C81BEF976F00593984 /* RadioButtons.m in Sources */,
+				7856C2DE1BEF977F00593984 /* MySliderViewController.m in Sources */,
+				7856C2C61BEF976F00593984 /* RadioControllers.m in Sources */,
+				7856C2C41BEF976F00593984 /* CJSliderViewController.m in Sources */,
+				7856C2931BEF95EB00593984 /* main.m in Sources */,
+				7856C2C71BEF976F00593984 /* RadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7856C29A1BEF95EB00593984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7856C29B1BEF95EB00593984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7856C29F1BEF95EB00593984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7856C2A01BEF95EB00593984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7856C2A31BEF95EB00593984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7856C2A41BEF95EB00593984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7856C2A61BEF95EB00593984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CJSliderViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.CJSliderViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7856C2A71BEF95EB00593984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CJSliderViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.CJSliderViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7856C2891BEF95EB00593984 /* Build configuration list for PBXProject "CJSliderViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7856C2A31BEF95EB00593984 /* Debug */,
+				7856C2A41BEF95EB00593984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7856C2A51BEF95EB00593984 /* Build configuration list for PBXNativeTarget "CJSliderViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7856C2A61BEF95EB00593984 /* Debug */,
+				7856C2A71BEF95EB00593984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7856C2861BEF95EB00593984 /* Project object */;
+}
