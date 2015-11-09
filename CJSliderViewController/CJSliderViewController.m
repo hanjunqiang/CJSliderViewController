@@ -35,11 +35,11 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    [self initizileView];
+    [self initizileView_CJSliderVC];
 }
 
 
-- (void)removeAllViews{
+- (void)removeAllViews_CJSliderVC{
     for (UIView *view in self.radioCons.views) {
         [view removeFromSuperview];
     }
@@ -55,7 +55,7 @@
     }
 }
 
-- (void)initizileView{
+- (void)initizileView_CJSliderVC{
     if (self.radioCons.views.count == 0) {
         NSMutableArray *views = [[NSMutableArray alloc] init];
         for (UIViewController *vc in radioControllers) {
@@ -104,7 +104,6 @@
     [super viewDidLoad];
     
     //self.edgesForExtendedLayout = UIRectEdgeAll;//(默认)
-    [self initizileData];
 }
 
 
@@ -125,11 +124,7 @@
 }
 
 
-#pragma mark - 子类必须继承的方法
-- (void)initizileData{
-    
-}
-
+#pragma mark - 子类可选的继承方法
 - (void)doSomethingToCon_whereIndex:(NSInteger)index{
     
 }

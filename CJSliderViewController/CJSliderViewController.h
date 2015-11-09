@@ -12,10 +12,10 @@
 #import "RadioControllers.h"
 
 @interface CJSliderViewController : UIViewController<UIScrollViewDelegate, RadioButtonsSliderDelegate, RadioControllersDelegate>{
-    NSArray *radioButtonNames;
+    NSMutableArray *radioButtonNames;
     NSString *radioButtonNidName;
     
-    NSArray *radioControllers;
+    NSMutableArray *radioControllers;
     
     NSInteger selectIndex;
 }
@@ -23,11 +23,10 @@
 @property (strong,nonatomic) IBOutlet RadioControllers *radioCons;
 
 
-- (void)removeAllViews;
-- (void)initizileView;
+- (void)removeAllViews_CJSliderVC;
+- (void)initizileView_CJSliderVC;
 
 //子类必须继承的方法
-- (void)initizileData;
 - (void)doSomethingToCon_whereIndex:(NSInteger)index;
 
 @end

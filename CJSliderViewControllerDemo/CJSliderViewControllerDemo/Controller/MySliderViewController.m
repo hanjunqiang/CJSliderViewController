@@ -31,6 +31,7 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"更新" style:UIBarButtonItemStylePlain target:self action:@selector(updateShowIndex)];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"不切换" style:UIBarButtonItemStylePlain target:self action:@selector(no_updateShowIndex)];
     
+    [self initizileData_CJSliderVC];
     selectIndex = 1;
 }
 
@@ -53,30 +54,55 @@
 
 
 - (void)updateCon{
-    [self removeAllViews];
-    [self initizileView];
+    [self removeAllViews_CJSliderVC];
+    [self initizileView_CJSliderVC];
 }
 
 
 
 
-- (void)initizileData{
-//    UIStoryboard *sboard_home = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
-//    Home1 *home1 = [sboard_home instantiateViewControllerWithIdentifier:@"Home1"];
-//    Home2 *home2 = [sboard_home instantiateViewControllerWithIdentifier:@"Home2"];
-//    Home3 *home3 = [sboard_home instantiateViewControllerWithIdentifier:@"Home3"];
-//    Home4 *home4 = [sboard_home instantiateViewControllerWithIdentifier:@"Home4"];
-//    Home5 *home5 = [sboard_home instantiateViewControllerWithIdentifier:@"Home5"];
-//    Home6 *home6 = [sboard_home instantiateViewControllerWithIdentifier:@"Home6"];
-    UIViewController *home1 = [[UIViewController alloc]init];
-    UIViewController *home2 = [[UIViewController alloc]init];
-    UIViewController *home3 = [[UIViewController alloc]init];
-    UIViewController *home4 = [[UIViewController alloc]init];
-    UIViewController *home5 = [[UIViewController alloc]init];
-    UIViewController *home6 = [[UIViewController alloc]init];
-    radioControllers = @[home1, home2, home3, home4, home5, home6];
+- (void)initizileData_CJSliderVC{
     
-    radioButtonNames = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
+    NSArray *channelNames = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
+    
+    
+    radioControllers = [[NSMutableArray alloc]init];
+    radioButtonNames = [[NSMutableArray alloc]init];
+    for (int i = 0; i < channelNames.count; i++) {
+        NSString *name = [channelNames objectAtIndex:i];
+        
+        [radioButtonNames addObject:name];
+        
+        switch (i) {
+            case 0:
+            {
+                UIViewController *vc = [[UIViewController alloc]init];
+                [radioControllers addObject:vc];
+                break;
+            }
+            case 1:
+            {
+                UIViewController *vc = [[UIViewController alloc]init];
+                [radioControllers addObject:vc];
+                break;
+            }
+            case 2:
+            {
+                UIViewController *vc = [[UIViewController alloc]init];
+                [radioControllers addObject:vc];
+                break;
+            }
+            default:
+            {
+                UIViewController *vc = [[UIViewController alloc]init];
+                [radioControllers addObject:vc];
+                break;
+            }
+        }
+    }
+    
+    
+    
     radioButtonNidName = @"RadioButton_Slider";
 }
 

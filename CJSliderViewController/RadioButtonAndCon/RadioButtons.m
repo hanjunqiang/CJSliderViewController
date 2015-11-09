@@ -204,8 +204,7 @@
 }
 
 - (void)setTabBarItemTitles:(NSArray *)titles itemNidName:(NSString *)nibName andShowIndex:(NSInteger)showIndex{
-
-    
+    NSAssert(nibName != nil, @"radioButton的nibName未设置，请检查");
     
     sectionNum = [titles count];
     if (sectionNum == 0) {
