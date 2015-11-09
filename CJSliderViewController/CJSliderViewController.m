@@ -45,12 +45,7 @@
     }
     [self.radioCons.views removeAllObjects];
     
-    //    for (UIView *view in self.radioButtons.sv.subviews) {
-    //        if ([view isKindOfClass:[UIButton class]]) {
-    //            [view removeFromSuperview];
-    //        }
-    //    }
-    for (UIView *view in self.radioButtons.subviews) {
+    for (UIView *view in self.radioButtons.sv.subviews) {
         [view removeFromSuperview];
     }
     self.radioButtons.delegate = nil;
@@ -131,7 +126,7 @@
 
 
 #pragma mark - 子类必须继承的方法
-- (void)initizile{
+- (void)initizileData{
     
 }
 

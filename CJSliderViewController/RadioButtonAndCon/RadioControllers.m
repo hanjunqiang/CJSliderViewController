@@ -47,7 +47,7 @@
 }
 
 - (void)setScrollViews:(NSMutableArray *)views andShowIndex:(NSInteger)showIndex{
-    NSAssert(views.count >= 3, @"views min size 3");
+    NSAssert(views.count >= 3, @"the min count of the views is 3");
     
     //调整View大小
     for (NSInteger i=0; i<views.count; i++) {

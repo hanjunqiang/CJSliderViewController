@@ -37,7 +37,11 @@
 
 
 - (void)awakeFromNib{
-
+#pragma mark - 当scrollView位于第一个子视图时，其会对内容自动调整。如果你不想让scrollView的内容自动调整，可采取如下两种方法中的任一一种(这里采用第一种)。方法一：取消添加lab，以使得scrollView不是第一个子视图，从而达到取消scrollView的自动调整效果方法二：automaticallyAdjustsScrollViewInsets：如果你不想让scrollView的内容自动调整，将这个属性设为NO（默认值YES）。详细情况可参考evernote笔记中的UIStatusBar笔记内容
+    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectZero];
+    [self addSubview:lab];
+    
+    [self addScrollViewForTab];
 }
 
 
@@ -125,7 +129,6 @@
             RadioButton *radioButton_old = (RadioButton *)[self viewWithTag:RadioButton_TAG_BEGIN + currentExtendSection];
             radioButton_old.selected = !radioButton_old.selected;
         }
-//        [self showSelectItem:radioButton_cur];
         
         radioButton_cur.selected = !radioButton_cur.selected;
         
@@ -201,11 +204,7 @@
 }
 
 - (void)setTabBarItemTitles:(NSArray *)titles itemNidName:(NSString *)nibName andShowIndex:(NSInteger)showIndex{
-#pragma mark - 当scrollView位于第一个子视图时，其会对内容自动调整。如果你不想让scrollView的内容自动调整，可采取如下两种方法中的任一一种(这里采用第一种)。方法一：取消添加lab，以使得scrollView不是第一个子视图，从而达到取消scrollView的自动调整效果方法二：automaticallyAdjustsScrollViewInsets：如果你不想让scrollView的内容自动调整，将这个属性设为NO（默认值YES）。详细情况可参考evernote笔记中的UIStatusBar笔记内容
-    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectZero];
-    [self addSubview:lab];
-    
-    [self addScrollViewForTab];
+
     
     
     sectionNum = [titles count];
