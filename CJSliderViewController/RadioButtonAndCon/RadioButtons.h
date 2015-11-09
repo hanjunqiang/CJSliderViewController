@@ -35,6 +35,7 @@
  *  @param titles
  */
 - (void)setTabBarItemTitles:(NSArray *)titles itemNidName:(NSString *)nibName;
+- (void)setTabBarItemTitles:(NSArray *)titles itemNidName:(NSString *)nibName andShowIndex:(NSInteger)showIndex;
 - (void)addArrowImage_Left:(UIImage *)imageLeft Right:(UIImage *)imageRight;//添加左右滑动箭头
 
 /**

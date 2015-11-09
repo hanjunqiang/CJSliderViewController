@@ -42,7 +42,11 @@
 
 
 
-- (void)setScrollViews:(NSMutableArray *)views {
+- (void)setScrollViews:(NSMutableArray *)views{
+    [self setScrollViews:views andShowIndex:0];
+}
+
+- (void)setScrollViews:(NSMutableArray *)views andShowIndex:(NSInteger)showIndex{
     NSAssert(views.count >= 3, @"views min size 3");
     
     //调整View大小
@@ -59,7 +63,7 @@
     curIndex = -1;
     
     
-    [self resetViewWithIndex:0];
+    [self resetViewWithIndex:showIndex];
 }
 
 

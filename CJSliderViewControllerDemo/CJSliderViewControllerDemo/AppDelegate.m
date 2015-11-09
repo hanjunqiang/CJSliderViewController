@@ -20,9 +20,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     MySliderViewController *vc = [[MySliderViewController alloc]initWithNibName:@"CJSliderViewController" bundle:nil];
-//    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:vc];
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:vc];
+    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = navVC;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

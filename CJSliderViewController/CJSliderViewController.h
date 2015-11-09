@@ -23,8 +23,11 @@
 @property (strong,nonatomic) IBOutlet RadioControllers *radioCons;
 
 
+- (void)removeAllViews;
+- (void)initizileView;
+
 //子类必须继承的方法
-- (void)initizile;
+- (void)initizileData;
 - (void)doSomethingToCon_whereIndex:(NSInteger)index;
 
 @end

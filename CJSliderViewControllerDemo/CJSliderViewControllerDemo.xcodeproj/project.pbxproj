@@ -12,29 +12,29 @@
 		7856C2991BEF95EB00593984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2981BEF95EB00593984 /* ViewController.m */; };
 		7856C29C1BEF95EB00593984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7856C29A1BEF95EB00593984 /* Main.storyboard */; };
 		7856C29E1BEF95EB00593984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7856C29D1BEF95EB00593984 /* Assets.xcassets */; };
-		7856C2A11BEF95EB00593984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7856C29F1BEF95EB00593984 /* LaunchScreen.storyboard */; };
-		7856C2C41BEF976F00593984 /* CJSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AA1BEF976F00593984 /* CJSliderViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7856C2C51BEF976F00593984 /* CJSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2AB1BEF976F00593984 /* CJSliderViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		7856C2C61BEF976F00593984 /* RadioControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AE1BEF976F00593984 /* RadioControllers.m */; settings = {ASSET_TAGS = (); }; };
-		7856C2C71BEF976F00593984 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B01BEF976F00593984 /* RadioButton.m */; settings = {ASSET_TAGS = (); }; };
-		7856C2C81BEF976F00593984 /* RadioButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B21BEF976F00593984 /* RadioButtons.m */; settings = {ASSET_TAGS = (); }; };
-		7856C2C91BEF976F00593984 /* RadioButton_Slider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */; settings = {ASSET_TAGS = (); }; };
-		7856C2DE1BEF977F00593984 /* MySliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2DB1BEF977F00593984 /* MySliderViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7856C2DF1BEF977F00593984 /* MySliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2DC1BEF977F00593984 /* MySliderViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		7856C2EC1BEFAC6E00593984 /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E61BEFAC6E00593984 /* arrowUp.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2ED1BEFAC6E00593984 /* arrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2EE1BEFAC6E00593984 /* btnTab_BG_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2EF1BEFAC6E00593984 /* btnTab_BG_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2F01BEFAC6E00593984 /* btnTab_BG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2F11BEFAC6E00593984 /* btnTab_BG_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2FA1BEFAC8100593984 /* arrowLeft_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F21BEFAC8100593984 /* arrowLeft_selected.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2FB1BEFAC8100593984 /* arrowLeft_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F31BEFAC8100593984 /* arrowLeft_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2FC1BEFAC8100593984 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F41BEFAC8100593984 /* arrowLeft.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2FD1BEFAC8100593984 /* arrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F51BEFAC8100593984 /* arrowLeft@2x.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2FE1BEFAC8100593984 /* arrowRight_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F61BEFAC8100593984 /* arrowRight_selected.png */; settings = {ASSET_TAGS = (); }; };
-		7856C2FF1BEFAC8100593984 /* arrowRight_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
-		7856C3001BEFAC8100593984 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F81BEFAC8100593984 /* arrowRight.png */; settings = {ASSET_TAGS = (); }; };
-		7856C3011BEFAC8100593984 /* arrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F91BEFAC8100593984 /* arrowRight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7856C2C41BEF976F00593984 /* CJSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AA1BEF976F00593984 /* CJSliderViewController.m */; };
+		7856C2C51BEF976F00593984 /* CJSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2AB1BEF976F00593984 /* CJSliderViewController.xib */; };
+		7856C2C61BEF976F00593984 /* RadioControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AE1BEF976F00593984 /* RadioControllers.m */; };
+		7856C2C71BEF976F00593984 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B01BEF976F00593984 /* RadioButton.m */; };
+		7856C2C81BEF976F00593984 /* RadioButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B21BEF976F00593984 /* RadioButtons.m */; };
+		7856C2C91BEF976F00593984 /* RadioButton_Slider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */; };
+		7856C2DE1BEF977F00593984 /* MySliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2DB1BEF977F00593984 /* MySliderViewController.m */; };
+		7856C2DF1BEF977F00593984 /* MySliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2DC1BEF977F00593984 /* MySliderViewController.xib */; };
+		7856C2EC1BEFAC6E00593984 /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E61BEFAC6E00593984 /* arrowUp.png */; };
+		7856C2ED1BEFAC6E00593984 /* arrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */; };
+		7856C2EE1BEFAC6E00593984 /* btnTab_BG_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */; };
+		7856C2EF1BEFAC6E00593984 /* btnTab_BG_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */; };
+		7856C2F01BEFAC6E00593984 /* btnTab_BG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */; };
+		7856C2F11BEFAC6E00593984 /* btnTab_BG_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */; };
+		7856C2FA1BEFAC8100593984 /* arrowLeft_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F21BEFAC8100593984 /* arrowLeft_selected.png */; };
+		7856C2FB1BEFAC8100593984 /* arrowLeft_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F31BEFAC8100593984 /* arrowLeft_selected@2x.png */; };
+		7856C2FC1BEFAC8100593984 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F41BEFAC8100593984 /* arrowLeft.png */; };
+		7856C2FD1BEFAC8100593984 /* arrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F51BEFAC8100593984 /* arrowLeft@2x.png */; };
+		7856C2FE1BEFAC8100593984 /* arrowRight_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F61BEFAC8100593984 /* arrowRight_selected.png */; };
+		7856C2FF1BEFAC8100593984 /* arrowRight_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */; };
+		7856C3001BEFAC8100593984 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F81BEFAC8100593984 /* arrowRight.png */; };
+		7856C3011BEFAC8100593984 /* arrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F91BEFAC8100593984 /* arrowRight@2x.png */; };
+		804DB2641BF09E61002E9574 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804DB2621BF09E61002E9574 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,6 @@
 		7856C2981BEF95EB00593984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7856C29B1BEF95EB00593984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7856C29D1BEF95EB00593984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7856C2A01BEF95EB00593984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7856C2A21BEF95EB00593984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7856C2A91BEF976F00593984 /* CJSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSliderViewController.h; sourceTree = "<group>"; };
 		7856C2AA1BEF976F00593984 /* CJSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSliderViewController.m; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight_selected@2x.png"; sourceTree = "<group>"; };
 		7856C2F81BEFAC8100593984 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
 		7856C2F91BEFAC8100593984 /* arrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight@2x.png"; sourceTree = "<group>"; };
+		804DB2631BF09E61002E9574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 				7856C2DD1BEF977F00593984 /* res_image */,
 				7856C2A81BEF976F00593984 /* CJSliderViewController */,
 				7856C29D1BEF95EB00593984 /* Assets.xcassets */,
-				7856C29F1BEF95EB00593984 /* LaunchScreen.storyboard */,
+				804DB2621BF09E61002E9574 /* LaunchScreen.xib */,
 				7856C2A21BEF95EB00593984 /* Info.plist */,
 				7856C2911BEF95EB00593984 /* Supporting Files */,
 			);
@@ -264,13 +264,13 @@
 				7856C2FB1BEFAC8100593984 /* arrowLeft_selected@2x.png in Resources */,
 				7856C2FC1BEFAC8100593984 /* arrowLeft.png in Resources */,
 				7856C2FF1BEFAC8100593984 /* arrowRight_selected@2x.png in Resources */,
-				7856C2A11BEF95EB00593984 /* LaunchScreen.storyboard in Resources */,
 				7856C2FD1BEFAC8100593984 /* arrowLeft@2x.png in Resources */,
 				7856C2FA1BEFAC8100593984 /* arrowLeft_selected.png in Resources */,
 				7856C2F11BEFAC6E00593984 /* btnTab_BG_selected@2x.png in Resources */,
 				7856C2FE1BEFAC8100593984 /* arrowRight_selected.png in Resources */,
 				7856C29E1BEF95EB00593984 /* Assets.xcassets in Resources */,
 				7856C2C51BEF976F00593984 /* CJSliderViewController.xib in Resources */,
+				804DB2641BF09E61002E9574 /* LaunchScreen.xib in Resources */,
 				7856C2ED1BEFAC6E00593984 /* arrowUp@2x.png in Resources */,
 				7856C29C1BEF95EB00593984 /* Main.storyboard in Resources */,
 				7856C2EE1BEFAC6E00593984 /* btnTab_BG_normal.png in Resources */,
@@ -313,12 +313,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7856C29F1BEF95EB00593984 /* LaunchScreen.storyboard */ = {
+		804DB2621BF09E61002E9574 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7856C2A01BEF95EB00593984 /* Base */,
+				804DB2631BF09E61002E9574 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -398,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +449,7 @@
 				7856C2A71BEF95EB00593984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

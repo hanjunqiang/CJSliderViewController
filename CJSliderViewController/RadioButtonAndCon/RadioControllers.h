@@ -35,14 +35,15 @@
 
 
 @property (assign,nonatomic) id<RadioControllersDelegate> delegate;
-@property (strong,nonatomic) NSArray *views;
+@property (strong,nonatomic) NSMutableArray *views;
 
 /**
  *  设置滚动视图的UIViewController的View,必须设置3个以上的视图。
  *
  *  @param views
  */
--(void)setScrollViews:(NSMutableArray *) views;
+- (void)setScrollViews:(NSMutableArray *)views;
+- (void)setScrollViews:(NSMutableArray *)views andShowIndex:(NSInteger)showIndex;
 
 
 /**

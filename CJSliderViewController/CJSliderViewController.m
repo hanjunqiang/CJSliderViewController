@@ -35,18 +35,47 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
+    [self initizileView];
+}
+
+
+- (void)removeAllViews{
+    for (UIView *view in self.radioCons.views) {
+        [view removeFromSuperview];
+    }
+    [self.radioCons.views removeAllObjects];
+    
+    //    for (UIView *view in self.radioButtons.sv.subviews) {
+    //        if ([view isKindOfClass:[UIButton class]]) {
+    //            [view removeFromSuperview];
+    //        }
+    //    }
+    for (UIView *view in self.radioButtons.subviews) {
+        [view removeFromSuperview];
+    }
+    self.radioButtons.delegate = nil;
+    
+    for (UIViewController *vc in self.childViewControllers) {
+        [vc removeFromParentViewController];
+    }
+}
+
+- (void)initizileView{
     if (self.radioCons.views.count == 0) {
         NSMutableArray *views = [[NSMutableArray alloc] init];
         for (UIViewController *vc in radioControllers) {
             [views addObject:vc.view];
             [self addChildViewController:vc];//记得添加进去
         }
-        [self.radioCons setScrollViews:views];
+//        [self.radioCons setScrollViews:views];
+        [self.radioCons setScrollViews:views andShowIndex:selectIndex];
         [self.radioCons setDelegate:self];
     }
     
+    
     if (self.radioButtons.delegate == nil) {
-        [self.radioButtons setTabBarItemTitles:radioButtonNames itemNidName:radioButtonNidName];
+//        [self.radioButtons setTabBarItemTitles:radioButtonNames itemNidName:radioButtonNidName];
+        [self.radioButtons setTabBarItemTitles:radioButtonNames itemNidName:radioButtonNidName andShowIndex:selectIndex];
         
         /*
         //添加左右滑动箭头
@@ -58,9 +87,9 @@
         [self.radioButtons setDelegate:self];
     }
     
-    
-    [self.radioButtons selectRadioButtonIndex:selectIndex];
-    [self.radioCons selectIndex:selectIndex];
+    //已在上面通过andShowIndex来控制了。
+//    [self.radioButtons selectRadioButtonIndex:selectIndex];
+//    [self.radioCons selectIndex:selectIndex];
 }
 
 
@@ -80,7 +109,7 @@
     [super viewDidLoad];
     
     //self.edgesForExtendedLayout = UIRectEdgeAll;//(默认)
-    [self initizile];
+    [self initizileData];
 }
 
 

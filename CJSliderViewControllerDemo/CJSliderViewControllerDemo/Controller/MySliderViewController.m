@@ -27,10 +27,40 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.title = NSLocalizedString(@"首页", nil);
-   
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"更新" style:UIBarButtonItemStylePlain target:self action:@selector(updateShowIndex)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"不切换" style:UIBarButtonItemStylePlain target:self action:@selector(no_updateShowIndex)];
+    
+    selectIndex = 1;
 }
 
-- (void)initizile{
+- (void)no_updateShowIndex{
+    selectIndex = 4;
+    
+    [self updateCon];
+}
+
+- (void)updateShowIndex{
+    NSInteger oldIndex = selectIndex;
+    while (selectIndex == oldIndex) {
+        selectIndex = rand() % radioButtonNames.count;
+    }
+    NSLog(@"切换到第%d个控制器", selectIndex+1);
+    
+    
+    [self updateCon];
+}
+
+
+- (void)updateCon{
+    [self removeAllViews];
+    [self initizileView];
+}
+
+
+
+
+- (void)initizileData{
 //    UIStoryboard *sboard_home = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
 //    Home1 *home1 = [sboard_home instantiateViewControllerWithIdentifier:@"Home1"];
 //    Home2 *home2 = [sboard_home instantiateViewControllerWithIdentifier:@"Home2"];
@@ -48,9 +78,8 @@
     
     radioButtonNames = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
     radioButtonNidName = @"RadioButton_Slider";
-    
-    selectIndex = 1;
 }
+
 
 - (void)doSomethingToCon_whereIndex:(NSInteger)index{
     if (index == 0) {
