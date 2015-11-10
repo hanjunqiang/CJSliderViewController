@@ -8,14 +8,6 @@
 
 #import "MySliderViewController.h"
 
-//#import "Home1.h"
-//#import "Home2.h"
-//#import "Home3.h"
-//#import "Home4.h"
-//#import "Home5.h"
-//#import "Home6.h"
-
-
 
 @interface MySliderViewController ()
 
@@ -55,6 +47,12 @@
 
 - (void)updateCon{
     [self removeAllViews_CJSliderVC];
+    
+    [self initizileData_CJSliderVC];
+    if (selectIndex > radioButtonNames.count-1) {
+        selectIndex = 0; //当前显示的index被删掉后，默认转为显示第一个
+    }
+    
     [self initizileView_CJSliderVC];
 }
 
@@ -63,8 +61,14 @@
 
 - (void)initizileData_CJSliderVC{
     
-    NSArray *channelNames = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
-    
+    NSArray *channelNames_all = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
+    NSMutableArray *channelNames = [[NSMutableArray alloc]init];
+    NSInteger count_channel = channelNames_all.count;
+    //NSInteger count_channel = 3+rand()%(channelNames_all.count-3);
+    for (int i = 0; i < count_channel; i++) {
+        NSString *channelName = [channelNames_all objectAtIndex:i];
+        [channelNames addObject:channelName];
+    }
     
     radioControllers = [[NSMutableArray alloc]init];
     radioButtonNames = [[NSMutableArray alloc]init];
