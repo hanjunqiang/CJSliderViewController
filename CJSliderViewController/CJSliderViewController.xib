@@ -17,7 +17,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Wy-8U-XLA" customClass="RadioButtons">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Wy-8U-XLA" customClass="RadioButtons_Slider">
                     <rect key="frame" x="0.0" y="64" width="320" height="49"/>
                     <color key="backgroundColor" red="0.058823533359999999" green="0.87843143940000001" blue="0.14509804549999999" alpha="1" colorSpace="deviceRGB"/>
                     <constraints>

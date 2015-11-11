@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RadioButtons.h"
+#import <RadioButtons/RadioButtons_Slider.h>
 #import "RadioControllers.h"
 
-@interface CJSliderViewController : UIViewController<UIScrollViewDelegate, RadioButtonsSliderDelegate, RadioControllersDelegate>{
+@interface CJSliderViewController : UIViewController<UIScrollViewDelegate, RadioButtonsDelegate, RadioControllersDelegate>{
     NSMutableArray *radioButtonNames;
     NSString *radioButtonNidName;
     
@@ -19,7 +19,7 @@
     
     NSInteger selectIndex;
 }
-@property (strong,nonatomic) IBOutlet RadioButtons *radioButtons;
+@property (strong,nonatomic) IBOutlet RadioButtons_Slider *radioButtons;
 @property (strong,nonatomic) IBOutlet RadioControllers *radioCons;
 
 

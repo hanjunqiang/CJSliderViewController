@@ -15,17 +15,8 @@
 		7856C2C41BEF976F00593984 /* CJSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AA1BEF976F00593984 /* CJSliderViewController.m */; };
 		7856C2C51BEF976F00593984 /* CJSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2AB1BEF976F00593984 /* CJSliderViewController.xib */; };
 		7856C2C61BEF976F00593984 /* RadioControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2AE1BEF976F00593984 /* RadioControllers.m */; };
-		7856C2C71BEF976F00593984 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B01BEF976F00593984 /* RadioButton.m */; };
-		7856C2C81BEF976F00593984 /* RadioButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2B21BEF976F00593984 /* RadioButtons.m */; };
-		7856C2C91BEF976F00593984 /* RadioButton_Slider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */; };
 		7856C2DE1BEF977F00593984 /* MySliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7856C2DB1BEF977F00593984 /* MySliderViewController.m */; };
 		7856C2DF1BEF977F00593984 /* MySliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2DC1BEF977F00593984 /* MySliderViewController.xib */; };
-		7856C2EC1BEFAC6E00593984 /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E61BEFAC6E00593984 /* arrowUp.png */; };
-		7856C2ED1BEFAC6E00593984 /* arrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */; };
-		7856C2EE1BEFAC6E00593984 /* btnTab_BG_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */; };
-		7856C2EF1BEFAC6E00593984 /* btnTab_BG_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */; };
-		7856C2F01BEFAC6E00593984 /* btnTab_BG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */; };
-		7856C2F11BEFAC6E00593984 /* btnTab_BG_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */; };
 		7856C2FA1BEFAC8100593984 /* arrowLeft_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F21BEFAC8100593984 /* arrowLeft_selected.png */; };
 		7856C2FB1BEFAC8100593984 /* arrowLeft_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F31BEFAC8100593984 /* arrowLeft_selected@2x.png */; };
 		7856C2FC1BEFAC8100593984 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F41BEFAC8100593984 /* arrowLeft.png */; };
@@ -35,9 +26,11 @@
 		7856C3001BEFAC8100593984 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F81BEFAC8100593984 /* arrowRight.png */; };
 		7856C3011BEFAC8100593984 /* arrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F91BEFAC8100593984 /* arrowRight@2x.png */; };
 		804DB2641BF09E61002E9574 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804DB2621BF09E61002E9574 /* LaunchScreen.xib */; };
+		D5F1270438E4E8D428FD2494 /* libPods-CJSliderViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B9E8CCE0A026AC546BDE71 /* libPods-CJSliderViewControllerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20B9E8CCE0A026AC546BDE71 /* libPods-CJSliderViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJSliderViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7856C28E1BEF95EB00593984 /* CJSliderViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJSliderViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7856C2921BEF95EB00593984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7856C2941BEF95EB00593984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,20 +45,9 @@
 		7856C2AB1BEF976F00593984 /* CJSliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJSliderViewController.xib; sourceTree = "<group>"; };
 		7856C2AD1BEF976F00593984 /* RadioControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioControllers.h; sourceTree = "<group>"; };
 		7856C2AE1BEF976F00593984 /* RadioControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioControllers.m; sourceTree = "<group>"; };
-		7856C2AF1BEF976F00593984 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
-		7856C2B01BEF976F00593984 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
-		7856C2B11BEF976F00593984 /* RadioButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButtons.h; sourceTree = "<group>"; };
-		7856C2B21BEF976F00593984 /* RadioButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButtons.m; sourceTree = "<group>"; };
-		7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioButton_Slider.xib; sourceTree = "<group>"; };
 		7856C2DA1BEF977F00593984 /* MySliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySliderViewController.h; sourceTree = "<group>"; };
 		7856C2DB1BEF977F00593984 /* MySliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySliderViewController.m; sourceTree = "<group>"; };
 		7856C2DC1BEF977F00593984 /* MySliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySliderViewController.xib; sourceTree = "<group>"; };
-		7856C2E61BEFAC6E00593984 /* arrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowUp.png; sourceTree = "<group>"; };
-		7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowUp@2x.png"; sourceTree = "<group>"; };
-		7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnTab_BG_normal.png; sourceTree = "<group>"; };
-		7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnTab_BG_normal@2x.png"; sourceTree = "<group>"; };
-		7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnTab_BG_selected.png; sourceTree = "<group>"; };
-		7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnTab_BG_selected@2x.png"; sourceTree = "<group>"; };
 		7856C2F21BEFAC8100593984 /* arrowLeft_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft_selected.png; sourceTree = "<group>"; };
 		7856C2F31BEFAC8100593984 /* arrowLeft_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowLeft_selected@2x.png"; sourceTree = "<group>"; };
 		7856C2F41BEFAC8100593984 /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft.png; sourceTree = "<group>"; };
@@ -75,6 +57,8 @@
 		7856C2F81BEFAC8100593984 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
 		7856C2F91BEFAC8100593984 /* arrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight@2x.png"; sourceTree = "<group>"; };
 		804DB2631BF09E61002E9574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3500AD629860812182ABDD9 /* Pods-CJSliderViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJSliderViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJSliderViewControllerDemo/Pods-CJSliderViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E0EBB6ED45C5EFFADE7FFB1E /* Pods-CJSliderViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJSliderViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJSliderViewControllerDemo/Pods-CJSliderViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F1270438E4E8D428FD2494 /* libPods-CJSliderViewControllerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +78,8 @@
 			children = (
 				7856C2901BEF95EB00593984 /* CJSliderViewControllerDemo */,
 				7856C28F1BEF95EB00593984 /* Products */,
+				F66018E8EB0489A9400698C5 /* Pods */,
+				98A52AE0724DDA0C27D29E64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,12 +135,6 @@
 			children = (
 				7856C2AD1BEF976F00593984 /* RadioControllers.h */,
 				7856C2AE1BEF976F00593984 /* RadioControllers.m */,
-				7856C2AF1BEF976F00593984 /* RadioButton.h */,
-				7856C2B01BEF976F00593984 /* RadioButton.m */,
-				7856C2B31BEF976F00593984 /* RadioButton_Slider.xib */,
-				7856C2B11BEF976F00593984 /* RadioButtons.h */,
-				7856C2B21BEF976F00593984 /* RadioButtons.m */,
-				7856C2E51BEFAC6E00593984 /* images_RadioButton */,
 			);
 			path = RadioButtonAndCon;
 			sourceTree = "<group>";
@@ -191,17 +172,21 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		7856C2E51BEFAC6E00593984 /* images_RadioButton */ = {
+		98A52AE0724DDA0C27D29E64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7856C2E61BEFAC6E00593984 /* arrowUp.png */,
-				7856C2E71BEFAC6E00593984 /* arrowUp@2x.png */,
-				7856C2E81BEFAC6E00593984 /* btnTab_BG_normal.png */,
-				7856C2E91BEFAC6E00593984 /* btnTab_BG_normal@2x.png */,
-				7856C2EA1BEFAC6E00593984 /* btnTab_BG_selected.png */,
-				7856C2EB1BEFAC6E00593984 /* btnTab_BG_selected@2x.png */,
+				20B9E8CCE0A026AC546BDE71 /* libPods-CJSliderViewControllerDemo.a */,
 			);
-			path = images_RadioButton;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66018E8EB0489A9400698C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3500AD629860812182ABDD9 /* Pods-CJSliderViewControllerDemo.debug.xcconfig */,
+				E0EBB6ED45C5EFFADE7FFB1E /* Pods-CJSliderViewControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7856C2A51BEF95EB00593984 /* Build configuration list for PBXNativeTarget "CJSliderViewControllerDemo" */;
 			buildPhases = (
+				B45E793A42670E8AD6D5134C /* Check Pods Manifest.lock */,
 				7856C28A1BEF95EB00593984 /* Sources */,
 				7856C28B1BEF95EB00593984 /* Frameworks */,
 				7856C28C1BEF95EB00593984 /* Resources */,
+				E741E149619AAC6E234E3B29 /* Embed Pods Frameworks */,
+				26893BB6ACCC46EAF7A75D2E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,25 +254,66 @@
 				7856C2FF1BEFAC8100593984 /* arrowRight_selected@2x.png in Resources */,
 				7856C2FD1BEFAC8100593984 /* arrowLeft@2x.png in Resources */,
 				7856C2FA1BEFAC8100593984 /* arrowLeft_selected.png in Resources */,
-				7856C2F11BEFAC6E00593984 /* btnTab_BG_selected@2x.png in Resources */,
 				7856C2FE1BEFAC8100593984 /* arrowRight_selected.png in Resources */,
 				7856C29E1BEF95EB00593984 /* Assets.xcassets in Resources */,
 				7856C2C51BEF976F00593984 /* CJSliderViewController.xib in Resources */,
 				804DB2641BF09E61002E9574 /* LaunchScreen.xib in Resources */,
-				7856C2ED1BEFAC6E00593984 /* arrowUp@2x.png in Resources */,
 				7856C29C1BEF95EB00593984 /* Main.storyboard in Resources */,
-				7856C2EE1BEFAC6E00593984 /* btnTab_BG_normal.png in Resources */,
-				7856C2F01BEFAC6E00593984 /* btnTab_BG_selected.png in Resources */,
-				7856C2C91BEF976F00593984 /* RadioButton_Slider.xib in Resources */,
-				7856C2EC1BEFAC6E00593984 /* arrowUp.png in Resources */,
 				7856C2DF1BEF977F00593984 /* MySliderViewController.xib in Resources */,
-				7856C2EF1BEFAC6E00593984 /* btnTab_BG_normal@2x.png in Resources */,
 				7856C3001BEFAC8100593984 /* arrowRight.png in Resources */,
 				7856C3011BEFAC8100593984 /* arrowRight@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26893BB6ACCC46EAF7A75D2E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJSliderViewControllerDemo/Pods-CJSliderViewControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B45E793A42670E8AD6D5134C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E741E149619AAC6E234E3B29 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJSliderViewControllerDemo/Pods-CJSliderViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7856C28A1BEF95EB00593984 /* Sources */ = {
@@ -293,12 +322,10 @@
 			files = (
 				7856C2991BEF95EB00593984 /* ViewController.m in Sources */,
 				7856C2961BEF95EB00593984 /* AppDelegate.m in Sources */,
-				7856C2C81BEF976F00593984 /* RadioButtons.m in Sources */,
 				7856C2DE1BEF977F00593984 /* MySliderViewController.m in Sources */,
 				7856C2C61BEF976F00593984 /* RadioControllers.m in Sources */,
 				7856C2C41BEF976F00593984 /* CJSliderViewController.m in Sources */,
 				7856C2931BEF95EB00593984 /* main.m in Sources */,
-				7856C2C71BEF976F00593984 /* RadioButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +435,7 @@
 		};
 		7856C2A61BEF95EB00593984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3500AD629860812182ABDD9 /* Pods-CJSliderViewControllerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CJSliderViewControllerDemo/Info.plist;
@@ -420,6 +448,7 @@
 		};
 		7856C2A71BEF95EB00593984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EBB6ED45C5EFFADE7FFB1E /* Pods-CJSliderViewControllerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CJSliderViewControllerDemo/Info.plist;

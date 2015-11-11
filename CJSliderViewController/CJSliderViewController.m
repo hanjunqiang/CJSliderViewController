@@ -69,8 +69,8 @@
     
     
     if (self.radioButtons.delegate == nil) {
-//        [self.radioButtons setTabBarItemTitles:radioButtonNames itemNidName:radioButtonNidName];
-        [self.radioButtons setTabBarItemTitles:radioButtonNames itemNidName:radioButtonNidName andShowIndex:selectIndex];
+        //[self.radioButtons setTitles:radioButtonNames radioButtonNidName:radioButtonNidName];
+        [self.radioButtons setTitles:radioButtonNames radioButtonNidName:radioButtonNidName andShowIndex:selectIndex];
         
         /*
         //添加左右滑动箭头
@@ -108,7 +108,7 @@
 
 
 #pragma mark - RadioButtonsDelegate
-- (void)radioButtons_slider:(RadioButtons *)radioButtons_slider chooseIndex:(NSInteger)index{
+- (void)radioButtons:(RadioButtons *)radioButtons chooseIndex:(NSInteger)index{
     [self.radioCons selectIndex:index];
     selectIndex = index;
     

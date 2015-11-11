@@ -38,7 +38,7 @@
     while (selectIndex == oldIndex) {
         selectIndex = rand() % radioButtonNames.count;
     }
-    NSLog(@"切换到第%d个控制器", selectIndex+1);
+    NSLog(@"切换到第%zd个控制器", selectIndex+1);
     
     
     [self updateCon];
@@ -81,24 +81,28 @@
             case 0:
             {
                 UIViewController *vc = [[UIViewController alloc]init];
+                vc.view.backgroundColor = [UIColor redColor];
                 [radioControllers addObject:vc];
                 break;
             }
             case 1:
             {
                 UIViewController *vc = [[UIViewController alloc]init];
+                vc.view.backgroundColor = [UIColor greenColor];
                 [radioControllers addObject:vc];
                 break;
             }
             case 2:
             {
                 UIViewController *vc = [[UIViewController alloc]init];
+                vc.view.backgroundColor = [UIColor blueColor];
                 [radioControllers addObject:vc];
                 break;
             }
             default:
             {
                 UIViewController *vc = [[UIViewController alloc]init];
+                vc.view.backgroundColor = i%2 == 0 ? [UIColor orangeColor] : [UIColor yellowColor];
                 [radioControllers addObject:vc];
                 break;
             }
