@@ -25,8 +25,8 @@
     [self.view addSubview:rb_slider];
 }
 
-- (void)radioButtons:(RadioButtons_Slider *)radioButtons chooseIndex:(NSInteger)index{
-    NSLog(@"当前选择的是%d", index);
+- (void)radioButtons:(RadioButtons_Slider *)radioButtons chooseIndex:(NSInteger)index_cur oldIndex:(NSInteger)index_old{
+    NSLog(@"当前选择的是%d", index_cur);
     
 }
 
