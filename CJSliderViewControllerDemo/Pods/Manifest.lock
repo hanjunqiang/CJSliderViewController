@@ -1,13 +1,10 @@
 PODS:
-  - CJPopupView (1.0.3)
-  - RadioButtons (1.0.1):
-    - CJPopupView (~> 1.0.3)
+  - RadioButtons (1.0.2)
 
 DEPENDENCIES:
-  - RadioButtons (~> 1.0.1)
+  - RadioButtons (~> 1.0.2)
 
 SPEC CHECKSUMS:
-  CJPopupView: 5e8315aea669d5c012df2258ecaea990c0e111fb
-  RadioButtons: 2e83a2132dece71f99dcf1a1433ec078ebcf2830
+  RadioButtons: 439486777ed80da0ae852508ef4275343a03aaa2
 
 COCOAPODS: 0.39.0

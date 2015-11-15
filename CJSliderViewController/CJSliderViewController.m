@@ -108,11 +108,11 @@
 
 
 #pragma mark - RadioButtonsDelegate
-- (void)radioButtons:(RadioButtons *)radioButtons chooseIndex:(NSInteger)index{
-    [self.radioCons selectIndex:index];
-    selectIndex = index;
+- (void)radioButtons:(RadioButtons *)radioButtons chooseIndex:(NSInteger)index_cur oldIndex:(NSInteger)index_old{
+    [self.radioCons selectIndex:index_cur];
+    selectIndex = index_cur;
     
-    [self doSomethingToCon_whereIndex:index];//一般是做一些额外的，比如“强制刷新”的操作
+    [self doSomethingToCon_whereIndex:index_cur];//一般是做一些额外的，比如“强制刷新”的操作
 }
 
 #pragma mark - RadioControllersDelegate
