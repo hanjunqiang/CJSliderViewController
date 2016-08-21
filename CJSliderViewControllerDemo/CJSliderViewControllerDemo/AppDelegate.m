@@ -24,6 +24,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     MySliderViewController *vc = [[MySliderViewController alloc]initWithNibName:@"CJSliderViewController" bundle:nil];
+//    CJSliderViewController *vc = [[CJSliderViewController alloc]initWithNibName:@"CJSliderViewController" bundle:nil];
     UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = navVC;
     

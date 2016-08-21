@@ -11,16 +11,34 @@
 #import <RadioButtons/RadioButtons_Slider.h>
 #import "RadioControllers.h"
 
+//@class CJSliderViewController;
+//@protocol CJSliderViewControllerDataSoure <NSObject>
+//
+///**
+// *  获取CJSliderViewController控制器的数据源radioControllers
+// *
+// *  @param sliderViewController 控制器
+// *
+// *  @return 数据源
+// */
+//- (NSArray <UIViewController *> *)radioControllersForCJSliderViewController:(CJSliderViewController *)sliderViewController;
+//
+//@end
+
+
+/**
+ *  能够左右滑动的视图控制器
+ */
 @interface CJSliderViewController : UIViewController<UIScrollViewDelegate, RadioButtonsDelegate, RadioControllersDelegate>{
-    NSMutableArray *radioButtonNames;
+    NSArray *radioButtonNames;
     NSString *radioButtonNidName;
-    
     NSMutableArray *radioControllers;
     
     NSInteger selectIndex;
 }
-@property (strong,nonatomic) IBOutlet RadioButtons_Slider *radioButtons;
-@property (strong,nonatomic) IBOutlet RadioControllers *radioCons;
+//@property (nonatomic, assign) id <CJSliderViewControllerDataSoure> delegate;
+@property (nonatomic, strong) IBOutlet RadioButtons_Slider *radioButtons;
+@property (nonatomic, strong) IBOutlet RadioControllers *radioCons;
 
 
 - (void)removeAllViews_CJSliderVC;

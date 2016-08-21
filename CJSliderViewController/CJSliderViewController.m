@@ -35,6 +35,7 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
+    
     [self initizileView_CJSliderVC];
 }
 
@@ -55,7 +56,58 @@
     }
 }
 
+/**
+ *  初始化数据（按钮和控制器）
+ */
+- (void)initizileData_CJSliderVC {
+    /* 设置radioButtons */
+    radioButtonNames = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
+    radioButtonNidName = @"RadioButton_Slider";
+    
+    
+    /* 设置radioControllers（黄橙相间） */
+    radioControllers = [[NSMutableArray alloc] init];
+    
+    UIViewController *home1 = [[UIViewController alloc]init];
+    home1.view.backgroundColor = [UIColor yellowColor];
+    [radioControllers addObject:home1];
+    
+    UIViewController *home2 = [[UIViewController alloc]init];
+    home2.view.backgroundColor = [UIColor orangeColor];
+    [radioControllers addObject:home2];
+    
+    UIViewController *home3 = [[UIViewController alloc]init];
+    home3.view.backgroundColor = [UIColor yellowColor];
+    [radioControllers addObject:home3];
+    
+    UIViewController *home4 = [[UIViewController alloc]init];
+    home4.view.backgroundColor = [UIColor orangeColor];
+    [radioControllers addObject:home4];
+    
+    UIViewController *home5 = [[UIViewController alloc]init];
+    home5.view.backgroundColor = [UIColor yellowColor];
+    [radioControllers addObject:home5];
+    
+    UIViewController *home6 = [[UIViewController alloc]init];
+    home6.view.backgroundColor = [UIColor orangeColor];
+    [radioControllers addObject:home6];
+    
+    for (NSInteger i = 0; i < radioControllers.count; i++) {
+        UIViewController *viewController = [radioControllers objectAtIndex:i];
+        
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 300, 300)];
+        label.backgroundColor = [UIColor cyanColor];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.font = [UIFont systemFontOfSize:40];
+        label.text = [NSString stringWithFormat:@"This is home%zd", i+1];
+        [viewController.view addSubview:label];
+    }
+}
+
+
 - (void)initizileView_CJSliderVC{
+//    [self initizileData_CJSliderVC];
+    
     if (self.radioCons.views.count == 0) {
         NSMutableArray *views = [[NSMutableArray alloc] init];
         for (UIViewController *vc in radioControllers) {
@@ -88,6 +140,7 @@
 }
 
 
+
 - (void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
     
@@ -109,7 +162,7 @@
 
 #pragma mark - RadioButtonsDelegate
 - (void)radioButtons:(RadioButtons *)radioButtons chooseIndex:(NSInteger)index_cur oldIndex:(NSInteger)index_old{
-    [self.radioCons selectIndex:index_cur];
+    [self.radioCons showViewWithIndex:index_cur];
     selectIndex = index_cur;
     
     [self doSomethingToCon_whereIndex:index_cur];//一般是做一些额外的，比如“强制刷新”的操作

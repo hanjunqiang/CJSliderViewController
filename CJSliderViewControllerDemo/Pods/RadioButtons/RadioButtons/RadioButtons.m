@@ -33,8 +33,12 @@
     [self addScrollViewForTab];
 }
 
-- (void)addScrollViewForTab{
-    sv = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+- (void)addScrollViewForTab {
+    
+    CGFloat width = self.frame.size.width;
+    CGFloat height = self.frame.size.height;
+    
+    sv = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, width, height)];
     sv.showsVerticalScrollIndicator = NO;
     sv.showsHorizontalScrollIndicator = NO;
     sv.delegate = self;

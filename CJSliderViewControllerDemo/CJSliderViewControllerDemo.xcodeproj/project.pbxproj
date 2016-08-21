@@ -25,6 +25,8 @@
 		7856C2FF1BEFAC8100593984 /* arrowRight_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */; };
 		7856C3001BEFAC8100593984 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F81BEFAC8100593984 /* arrowRight.png */; };
 		7856C3011BEFAC8100593984 /* arrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7856C2F91BEFAC8100593984 /* arrowRight@2x.png */; };
+		78E4135E1D6865FA00934D4A /* UIScrollView+CJAddContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4135D1D6865FA00934D4A /* UIScrollView+CJAddContentView.m */; };
+		78E413641D6891DD00934D4A /* UIView+CJAddSubVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E413631D6891DD00934D4A /* UIView+CJAddSubVIew.m */; };
 		804DB2641BF09E61002E9574 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804DB2621BF09E61002E9574 /* LaunchScreen.xib */; };
 		D5F1270438E4E8D428FD2494 /* libPods-CJSliderViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B9E8CCE0A026AC546BDE71 /* libPods-CJSliderViewControllerDemo.a */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,10 @@
 		7856C2F71BEFAC8100593984 /* arrowRight_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight_selected@2x.png"; sourceTree = "<group>"; };
 		7856C2F81BEFAC8100593984 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
 		7856C2F91BEFAC8100593984 /* arrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight@2x.png"; sourceTree = "<group>"; };
+		78E4135C1D6865FA00934D4A /* UIScrollView+CJAddContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CJAddContentView.h"; sourceTree = "<group>"; };
+		78E4135D1D6865FA00934D4A /* UIScrollView+CJAddContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CJAddContentView.m"; sourceTree = "<group>"; };
+		78E413621D6891DD00934D4A /* UIView+CJAddSubVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CJAddSubVIew.h"; sourceTree = "<group>"; };
+		78E413631D6891DD00934D4A /* UIView+CJAddSubVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CJAddSubVIew.m"; sourceTree = "<group>"; };
 		804DB2631BF09E61002E9574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D3500AD629860812182ABDD9 /* Pods-CJSliderViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJSliderViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJSliderViewControllerDemo/Pods-CJSliderViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E0EBB6ED45C5EFFADE7FFB1E /* Pods-CJSliderViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJSliderViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJSliderViewControllerDemo/Pods-CJSliderViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +141,10 @@
 			children = (
 				7856C2AD1BEF976F00593984 /* RadioControllers.h */,
 				7856C2AE1BEF976F00593984 /* RadioControllers.m */,
+				78E4135C1D6865FA00934D4A /* UIScrollView+CJAddContentView.h */,
+				78E4135D1D6865FA00934D4A /* UIScrollView+CJAddContentView.m */,
+				78E413621D6891DD00934D4A /* UIView+CJAddSubVIew.h */,
+				78E413631D6891DD00934D4A /* UIView+CJAddSubVIew.m */,
 			);
 			path = RadioButtonAndCon;
 			sourceTree = "<group>";
@@ -326,6 +336,8 @@
 				7856C2C61BEF976F00593984 /* RadioControllers.m in Sources */,
 				7856C2C41BEF976F00593984 /* CJSliderViewController.m in Sources */,
 				7856C2931BEF95EB00593984 /* main.m in Sources */,
+				78E4135E1D6865FA00934D4A /* UIScrollView+CJAddContentView.m in Sources */,
+				78E413641D6891DD00934D4A /* UIView+CJAddSubVIew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

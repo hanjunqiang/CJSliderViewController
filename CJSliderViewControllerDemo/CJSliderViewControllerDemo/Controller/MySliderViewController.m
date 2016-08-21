@@ -24,7 +24,8 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"不切换" style:UIBarButtonItemStylePlain target:self action:@selector(no_updateShowIndex)];
     
     [self initizileData_CJSliderVC];
-    selectIndex = 1;
+//    selectIndex = 1;
+    selectIndex = 0;
 }
 
 - (void)no_updateShowIndex{
@@ -59,59 +60,52 @@
 
 
 
-- (void)initizileData_CJSliderVC{
-    
-    NSArray *channelNames_all = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
-    NSMutableArray *channelNames = [[NSMutableArray alloc]init];
-    NSInteger count_channel = channelNames_all.count;
-    //NSInteger count_channel = 3+rand()%(channelNames_all.count-3);
-    for (int i = 0; i < count_channel; i++) {
-        NSString *channelName = [channelNames_all objectAtIndex:i];
-        [channelNames addObject:channelName];
-    }
-    
-    radioControllers = [[NSMutableArray alloc]init];
-    radioButtonNames = [[NSMutableArray alloc]init];
-    for (int i = 0; i < channelNames.count; i++) {
-        NSString *name = [channelNames objectAtIndex:i];
-        
-        [radioButtonNames addObject:name];
-        
-        switch (i) {
-            case 0:
-            {
-                UIViewController *vc = [[UIViewController alloc]init];
-                vc.view.backgroundColor = [UIColor redColor];
-                [radioControllers addObject:vc];
-                break;
-            }
-            case 1:
-            {
-                UIViewController *vc = [[UIViewController alloc]init];
-                vc.view.backgroundColor = [UIColor greenColor];
-                [radioControllers addObject:vc];
-                break;
-            }
-            case 2:
-            {
-                UIViewController *vc = [[UIViewController alloc]init];
-                vc.view.backgroundColor = [UIColor blueColor];
-                [radioControllers addObject:vc];
-                break;
-            }
-            default:
-            {
-                UIViewController *vc = [[UIViewController alloc]init];
-                vc.view.backgroundColor = i%2 == 0 ? [UIColor orangeColor] : [UIColor yellowColor];
-                [radioControllers addObject:vc];
-                break;
-            }
-        }
-    }
-    
-    
-    
+/**
+ *  初始化数据（按钮和控制器）
+ */
+- (void)initizileData_CJSliderVC {
+    /* 设置radioButtons */
+    radioButtonNames = @[@"Home1第一页", @"Home2", @"Home3是佛恩", @"Home4天赐的爱", @"Home5你是礼物", @"Home6"];
     radioButtonNidName = @"RadioButton_Slider";
+    
+    
+    /* 设置radioControllers（黄橙相间） */
+    radioControllers = [[NSMutableArray alloc] init];
+    
+    UIViewController *home1 = [[UIViewController alloc]init];
+    home1.view.backgroundColor = [UIColor yellowColor];
+    [radioControllers addObject:home1];
+    
+    UIViewController *home2 = [[UIViewController alloc]init];
+    home2.view.backgroundColor = [UIColor orangeColor];
+    [radioControllers addObject:home2];
+    
+    UIViewController *home3 = [[UIViewController alloc]init];
+    home3.view.backgroundColor = [UIColor yellowColor];
+    [radioControllers addObject:home3];
+    
+    UIViewController *home4 = [[UIViewController alloc]init];
+    home4.view.backgroundColor = [UIColor orangeColor];
+    [radioControllers addObject:home4];
+    
+    UIViewController *home5 = [[UIViewController alloc]init];
+    home5.view.backgroundColor = [UIColor yellowColor];
+    [radioControllers addObject:home5];
+    
+    UIViewController *home6 = [[UIViewController alloc]init];
+    home6.view.backgroundColor = [UIColor orangeColor];
+    [radioControllers addObject:home6];
+    
+    for (NSInteger i = 0; i < radioControllers.count; i++) {
+        UIViewController *viewController = [radioControllers objectAtIndex:i];
+        
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 300, 300)];
+        label.backgroundColor = [UIColor cyanColor];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.font = [UIFont systemFontOfSize:40];
+        label.text = [NSString stringWithFormat:@"This is home%zd", i+1];
+        [viewController.view addSubview:label];
+    }
 }
 
 

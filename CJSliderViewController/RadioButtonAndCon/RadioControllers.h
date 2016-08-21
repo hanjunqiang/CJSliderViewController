@@ -24,8 +24,9 @@
 
 
 @interface RadioControllers : UIView<UIScrollViewDelegate>{
-    UIScrollView *sv;
-    NSInteger curIndex;
+    
+    
+    NSInteger currentShowViewIndex; /**< 当前显示的视图(即中视图)上的视图内容在所有view中的位置 */
     NSInteger selIndex;
     
     UIView *_viewL;
@@ -47,10 +48,10 @@
 
 
 /**
- *  设置第几个Page被选中
+ *  显示第几个View（即将第viewIndex位置的View显示到centerView中）
  *
- *  @param index
+ *  @param showViewIndex 要显示的view的索引
  */
-- (void)selectIndex:(NSInteger)index;
+- (void)showViewWithIndex:(NSInteger)showViewIndex;
 
 @end
